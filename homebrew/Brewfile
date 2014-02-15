@@ -1,0 +1,31 @@
+update
+upgrade
+
+# homebrew-caskのインストール
+tap phinze/homebrew-cask || true
+install brew-cask
+
+# 各種インストール
+install rbenv ruby-build
+install wget
+install mysql
+install rbenv-gemset
+install automake
+install imagemagick
+
+
+cask install iterm2
+cask install java
+cask install google-chrome
+cask install firefox
+cask install dropbox
+cask install virtualbox
+cask install vagrant
+cask install kobito
+cask install sublime-text
+cask install coteditor
+cask install skype
+cask install coteditor
+
+
+cleanup
