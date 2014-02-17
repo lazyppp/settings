@@ -26,6 +26,6 @@ cask install sublime-text
 cask install coteditor
 cask install skype
 cask install coteditor
-
+cask install sqlite-browser
 
 cleanup
